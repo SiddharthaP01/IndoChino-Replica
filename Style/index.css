@@ -1,3 +1,22 @@
+/*SECTION*/
+.banner1{
+    margin: 0 200px;
+}
+.card-title1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner2{
+    margin: 0 180px;
+}
+.col-md-6{
+    background-color: rgba(216, 216, 216, 0.938);
+}
+.card-title2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 /*FOOTER*/
 .footer2-1{
     font-weight: bold;
