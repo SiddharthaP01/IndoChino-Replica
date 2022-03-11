@@ -1,21 +1,103 @@
 /*SECTION*/
 .banner1{
-    margin: 0 200px;
+    background-color:#021528;
+}
+.banner1 img{
+    padding: 50px;
+}
+#banner1{
+    margin: 0 100px;
+    background-color: #021528;
 }
 .card-title1{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.card-body1{
+    margin-top: 100px;    
+    color: aliceblue;
+}
+
+.btn1{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #021528;
+    padding: 10px 70px;
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 0;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn1 :hover{
+    color:#021528 !important;
+    background-color: white !important;
+}
+
+.disc{
+    font-size: 20px;
+    color: grey;
+    text-align: center ;
+    margin-top: 30px;
+}
+.blck{
+    padding: 0 180px;
+    margin:0 0 50px 0;
+}
+.card {
+    border: 0 solid white;
+}
+.name{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.card-text{
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-footer{
+    padding: 0;
+    background-color: white;
+}
+.col button{
+    background-color: #1678be;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    border: 0;
 }
 
 .banner2{
     margin: 0 180px;
 }
-.col-md-6{
+#banner2{
     background-color: rgba(216, 216, 216, 0.938);
+    max-width: 100%;
 }
 .card-title2{
+    margin-top: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
 
+.tile2{
+    padding: 70px;
+}
+
+.tile2 p{
+    font-size: 13px;
+}
+
+.tile2 button{
+    background-color: black;
+    color: white;
+    padding: 10px 60px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
 
 /*FOOTER*/
 .footer2-1{
