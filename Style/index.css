@@ -3,7 +3,7 @@
     background-color:#021528;
 }
 .banner1 img{
-    padding: 50px;
+    padding: 8%;
 }
 #banner1{
     margin: 0 100px;
@@ -14,7 +14,7 @@
     font-size: 50px;
 }
 .card-body1{
-    margin-top: 100px;    
+    margin-top: 15%;    
     color: aliceblue;
 }
 
@@ -98,7 +98,48 @@
     font-size: 17px;
 
 }
+.card2{
+    text-align-last: center;
+}
+.tile3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.btn2{
+    color: black ;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.card6{
+    margin: 15px;
+}
+.card6-head{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.card6-body{
+    font-size: 13px;
+}
+
+.search-bar2{
+    margin-right: 0;
+    border-radius: 0;
+}
+
+.btn3{
+    color: white;
+    margin-left: 0;
+    background-color: black;
+    border-radius: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+}
 /*FOOTER*/
 .footer2-1{
     font-weight: bold;
