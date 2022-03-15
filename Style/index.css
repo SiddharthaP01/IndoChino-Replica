@@ -128,10 +128,12 @@
 }
 
 .card6{
-    margin: 15px;
+    padding: 50px;
+    margin: 40px auto;
+    background-color: #F0EFEB;
 }
 .card6-head{
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
