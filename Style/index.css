@@ -10,6 +10,9 @@
     color: black;
 }
 
+.clear {
+    clear: both;
+}
 
 /*SECTION*/
 .banner1{
@@ -84,7 +87,7 @@
 }
 
 .banner2{
-    margin: 0 180px;
+    margin: 20px 180px;
 }
 #banner2{
     background-color: rgba(216, 216, 216, 0.938);
@@ -126,6 +129,10 @@
     font-weight: bold;
     font-size: 18px;
 }
+.card2 .card-text3{
+    width: 52rem;
+}
+
 
 .card6{
     padding: 50px;
@@ -163,4 +170,86 @@
 
 .footer2-2{
     font-size: 13px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #banner1{
+        margin: 0 3%;
+    }
+    .card-body1{
+        margin-top: 5%;
+        font-size: 15px; 
+    }
+
+    .card-title1{
+        font-size: 35px;
+    }
+
+    .btn1{
+        font-size: 15px;
+        padding: 10px 50px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .banner2{
+        margin: 20px 5%;
+    }
+
+    .banner2 img{
+       width: 100%;
+    }
+
+    .card-title2{
+        margin-top: 10px;
+        
+    }
+    .tile2{
+        padding: 5%;
+    }
+    
+
+    .card6 {
+        width: 95%;
+    }
+    .card6 .row .col-8 {
+        float: left;
+        width: 95%;
+    }
+
+    .card6 .row .col-4 {
+        float: left;
+        width: 95%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 420px) {
+    .banner1 .col-md-6 img{
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-body1{
+        position: relative;
+    }
+    .btn1{
+        transform: translateX(35%);
+    }
+
+    .input-group-text{
+        font-size: 12px !important;
+        padding: 5% 5%;
+    }
+
+    .card6{
+        padding: 3%;
+    }
+
+    .card2 .card-text3 {
+        width: 95%;
+    }
 }
